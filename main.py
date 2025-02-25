@@ -13,6 +13,7 @@ def main():
     name, age = get_user_info()
     print_greeting(name, age)
     birth_year=calculate_birth_year(age)
+    # fork 참고용으로 진행
 
 if __name__ == "__main__":
     main()
